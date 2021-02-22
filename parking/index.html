@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="urf-8">
+        <title>ImageMap.Sample</title>
+
+		<!-- Add jQuery library -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+
+<!-- Add maphilight plugin -->
+<script type="text/javascript" src="jquery.maphilight.min.js"></script>
+
+<!-- Activate maphilight plugin -->
+<script type="text/javascript">$(function() {
+        $('.map').maphilight();
+    });
+</script>
+
+    </head>
+    <body>
+        <map name="map">
+            <svg class = "map" height="200" width="500">
+  <polyline points="284, 47, 725, 50" style="fill:red;stroke:black;stroke-width:3" />
+</svg>
+            <area shape="rect" coords="411, 182, 445, 252"  alt="parking 1">
+			<area shape="polyline" coords="284, 47, 725, 50"  alt="parking 1" ">
+            
+			<area shape="rect" coords="452, 182, 482, 252" alt="parking 1" >
+            <area shape="rect" coords="493, 182, 526, 252" alt="parking 1" >
+            <area shape="rect" coords="533, 182, 563, 252" alt="parking 1">
+
+            <area shape="rect" coords="608, 215, 674, 242" alt="parking 1">
+            <area shape="rect" coords="608, 252, 674, 276" alt="parking 1">
+            <area shape="rect" coords="608, 285, 674, 310" alt="parking 1">
+            <area shape="rect" coords="608, 319, 674, 343" alt="parking 1">
+            <area shape="rect" coords="608, 352, 674, 378" href="#" alt="parking 1">
+            <area shape="rect" coords="608, 388, 674, 413" href="#" alt="parking 1">
+            <area shape="rect" coords="608, 421, 674, 448" href="#" alt="parking 1">
+            <area shape="rect" coords="608, 458, 674, 484" href="#" alt="parking 1">
+            <area shape="rect" coords="608, 494, 674, 520" href="#" alt="parking 1">
+
+            <area shape="rect" coords="608, 670, 674, 698" href="#" alt="parking 1">
+            <area shape="rect" coords="608, 708, 674, 738" href="#" alt="parking 1">
+
+            <area shape="rect" coords="864, 177, 933, 209" href="#" alt="parking 1">
+            <area shape="rect" coords="864, 219, 933, 247" href="#" alt="parking 1">
+            <area shape="rect" coords="864, 256, 933, 286" href="#" alt="parking 1">
+            <area shape="rect" coords="864, 295, 933, 325" href="#" alt="parking 1">
+            <area shape="rect" coords="864, 330, 933, 361" href="#" alt="parking 1">
+            <area shape="rect" coords="864, 370, 933, 400" href="#" alt="parking 1">
+            <area shape="rect" coords="864, 406, 933, 436" href="#" alt="parking 1">
+            <area shape="rect" coords="864, 446, 933, 475" href="#" alt="parking 1">
+            <area shape="rect" coords="864, 483, 933, 512" href="#" alt="parking 1">
+            <area shape="rect" coords="864, 522, 933, 551" href="#" alt="parking 1">
+
+            <area shape="rect" coords="864, 652, 933, 682" href="#" alt="parking 1">
+            <area shape="rect" coords="864, 691, 933, 722" href="#" alt="parking 1">
+
+
+
+        </map>
+        <img usemap="#map" src="map.png" alt="Image" class = "map" id = "map">
+
+    </body>
+	<script type = "text/javascript" src = "mouse_click.js"></script>
+</html>
